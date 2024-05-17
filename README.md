@@ -5,13 +5,13 @@
 
 
 ## Sub-challenges and Results 
-For details, please see the [Baseline Paper](#). If you want to sign up for the challenge, please fill the form 
+For details, please see the [Baseline Paper](#). If you want to sign up for the challenge, please fill out the form 
 [here](https://www.muse-challenge.org/challenge/participate).
 
 * MuSe-Perception: predicting 16 different dimensions of social perception (e.g. Assertiveness, Likability, Warmth,...). 
- *Official baseline* : **.3573** mean Pearson's correlation over all 16 classes.
+ *Official baseline*: **.3573** mean Pearson's correlation over all 16 classes.
 
-* MuSe-Humor: predicting presence/absence of humour in cross-cultural (German/English) football press conference recordings. 
+* MuSe-Humor: predicting the presence/absence of humor in cross-cultural (German/English) football press conference recordings. 
 *Official baseline*: **.8682** AUC.
 
 
@@ -19,7 +19,7 @@ For details, please see the [Baseline Paper](#). If you want to sign up for the 
 It is highly recommended to run everything in a Python virtual environment. Please make sure to install the packages listed 
 in ``requirements.txt`` and adjust the paths in `config.py` (especially ``BASE_PATH`` and ``HUMOR_PATH`` and/or ``PERCEPTION_PATH``, respectively). 
 
-You can then e.g. run the unimodal baseline reproduction calls in the ``*_full.sh`` file provided for each sub-challenge.
+You can then, e.g., run the unimodal baseline reproduction calls in the ``*_full.sh`` file provided for each sub-challenge.
 
 ## Settings
 The ``main.py`` script is used for training and evaluating models.  Most important options:
@@ -48,9 +48,9 @@ A checkpoint model can be loaded and evaluated as follows:
 
 
 ### Late Fusion
-We utilise a simple late fusion approach, which averages different models' predictions. 
+We utilize a simple late fusion approach, which averages different models' predictions. 
 First, predictions for development and test set have to be created using the ``--predict`` option in ``main.py``. 
-This will create prediction folders under the folder specified as prediction directory in ``config.py``.
+This will create prediction folders under the folder specified as the prediction directory in ``config.py``.
 
 Then, ``late_fusion.py`` merges these predictions:
 * ``--task``: choose either `humor` or `perception` 
@@ -60,7 +60,9 @@ Then, ``late_fusion.py`` merges these predictions:
   It is the parent folder of the folders named after the seeds (e.g. ``101``). These contain the files ``predictions_devel.csv`` and ``predictoins_test.csv``
 * ``--seeds``: seeds for the respective model IDs.  
 
-
+### Model Checkpoints
+[Perception Sub-Challenge](https://mediastore.rz.uni-augsburg.de/get/Bm2Ds0KUNd/)
+[Humor Sub-Challenge](https://mediastore.rz.uni-augsburg.de/get/_Xvipe7oPO/)
 
 
 ##  Citation:
