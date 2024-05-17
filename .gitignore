@@ -1,0 +1,12 @@
+__pycache__
+.idea
+*.sh
+*.out
+hp_search
+preds
+baseline_results
+venv/
+*.csv
+*.envrc
+*#
+test_scripts/
