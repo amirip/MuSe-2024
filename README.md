@@ -61,8 +61,9 @@ Then, ``late_fusion.py`` merges these predictions:
 * ``--seeds``: seeds for the respective model IDs.  
 
 ### Model Checkpoints
-[Perception Sub-Challenge](https://mediastore.rz.uni-augsburg.de/get/Bm2Ds0KUNd/)
-[Humor Sub-Challenge](https://mediastore.rz.uni-augsburg.de/get/_Xvipe7oPO/)
+Checkpoints for the [Perception Sub-Challenge](https://mediastore.rz.uni-augsburg.de/get/Bm2Ds0KUNd/)
+
+Checkpoints for the [Humor Sub-Challenge](https://mediastore.rz.uni-augsburg.de/get/_Xvipe7oPO/)
 
 
 ##  Citation:
