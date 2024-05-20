@@ -68,5 +68,5 @@ Checkpoints for the [Humor Sub-Challenge](https://mediastore.rz.uni-augsburg.de/
 
 ##  Citation:
 
-The MuSe2024 baseline paper is only available in a preliminary version as of now: [https://www.researchgate.net/publication/359875358_The_MuSe_2022_Multimodal_Sentiment_Analysis_Challenge_Humor_Emotional_Reactions_and_Stress](https://www.researchgate.net/publication/359875358_The_MuSe_2022_Multimodal_Sentiment_Analysis_Challenge_Humor_Emotional_Reactions_and_Stress)
+The MuSe2024 baseline paper is only available in a preliminary version as of now: [https://www.researchgate.net/publication/380664467_The_MuSe_2024_Multimodal_Sentiment_Analysis_Challenge_Social_Perception_and_Humor_Recognition](https://www.researchgate.net/publication/380664467_The_MuSe_2024_Multimodal_Sentiment_Analysis_Challenge_Social_Perception_and_Humor_Recognition)
 
