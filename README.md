@@ -1,7 +1,7 @@
 # MuSe-2024 Baseline Model: GRU Regressor
 
 
-[Homepage](https://www.muse-challenge.org) || [Baseline Paper](#)
+[Homepage](https://www.muse-challenge.org) || [Baseline Paper](https://www.researchgate.net/publication/380664467_The_MuSe_2024_Multimodal_Sentiment_Analysis_Challenge_Social_Perception_and_Humor_Recognition)
 
 
 ## Sub-challenges and Results 
