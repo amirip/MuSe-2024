@@ -5,7 +5,7 @@
 
 
 ## Sub-challenges and Results 
-For details, please see the [Baseline Paper](#). If you want to sign up for the challenge, please fill out the form 
+For details, please see the [Baseline Paper](https://www.researchgate.net/publication/380664467_The_MuSe_2024_Multimodal_Sentiment_Analysis_Challenge_Social_Perception_and_Humor_Recognition). If you want to sign up for the challenge, please fill out the form 
 [here](https://www.muse-challenge.org/challenge/participate).
 
 * MuSe-Perception: predicting 16 different dimensions of social perception (e.g. Assertiveness, Likability, Warmth,...). 
